@@ -9,7 +9,10 @@ environment:
 
 dependencies:
   open_iconic_flutter: ">=0.3.0 <0.4.0"
-  video_player: ">=0.6.0 <0.7.0"
+  video_player:
+    git:
+      url: git@github.com:rizkyandriawan/plugins.git
+      path: packages/video_player
   flutter:
     sdk: flutter
 
