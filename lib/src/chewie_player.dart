@@ -75,6 +75,7 @@ class _ChewiePlayerState extends State<Chewie> {
 
   @override
   Widget build(BuildContext context) {
+    debugPrint("MY CHEWIE, YO!");
     return new PlayerWithControls(
       controller: _controller,
       onExpandCollapse: () => _pushFullScreenWidget(context),
